@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="#ebebeb" >
+    <center>
+    <h1>
+            <font color="#6A3FB8"> STUDENT REGISTARATION FORM</font>
+    </h1>
+    <br><br>
+    </center>
+    <form action="">
+        <fieldset style="border:2px solid rgb(0, 0, 0); background-color:#d4c6f1" ;><legend><h3>
+            <font color="black">
+            Personal info
+         </font>
+           </h3>
+        </legend>
+        <p>First Name: <input required type="text" name="fname" placeholder="max 30 character" maxlength="30">
+        Last Name: <input required type="text" name="Lname" placeholder="max 30 character" maxlength="30"></p>
+        <p>e-mail: <input required type="email" name="email" placeholder="full email with @"></p>
+        <p>Phone No: <input required type="number" name="num"  maxlength="11"></p>
+        <p>
+            GENDER :   
+            male<input required type="radio" name="GENDER" value="male" id="">
+            female<input required  type="radio" name="GENDER" value="female" id="">
+            others<input  required type="radio" name="GENDER" value="others" id="">
+        </p>
+        <p>
+            Address
+            <br><textarea name="comments" cols="30" rows="5" placeholder="Enter Your Full Address"></textarea>
+        </p>
+        <p>City: <input required type="text" name="city" placeholder="max 30 characters" maxlength="30"></p>
+        <p>PIN Code: <input required type="number" name="pin" placeholder="6 digit number"maxlength="6"></p>
+        <p>State: <input required type="text" name="state" placeholder="max 30 character"></p>
+        <p>
+            Select your country:
+            <select name="Country" id="">
+                <option  value="USA">USA</option>
+                <option selected value="Country">Country</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="India">India</option>
+                <option  value="USA">USA</option>
+                <option value="Uk">Uk</option>
+                <option value="Afghanistan">Afghanistan</option>
+                <option value="Iran">Iran</option>
+                <option value="Iraq">Iraq</option>
+            </select>
+        </p>
+            <p>
+                <p> Select more than one:</p> <br>
+                <input type="checkbox" value="Drawing" name="Answer" id="">Drawing
+                <input type="checkbox" value="Singing" name="Answer" id="">Singing
+                <input type="checkbox" value="Swimming" name="Answer" id="">Swimming 
+                  Others <input type="text"  name="Answer" placeholder="write if any">
+                
+            </p>
+        </fieldset>
+        <fieldset style="border:2px solid rgb(0, 0, 0); background-color:#d4c6f1" ;><legend><h3>
+            <font color="black">
+            Qualification
+         </font>
+           </h3>
+        </legend>
+
+            
+            <table b>
+            <tr>
+                <td bgcolor="#c3a5fa">S.NO</td>
+                <td bgcolor="#c3a5fa">Examination</td>
+                <td bgcolor="#c3a5fa">Board</td>
+                <td bgcolor="#c3a5fa">Percentage %</td>
+                <td bgcolor="#c3a5fa">Year Of Passing</td>
+            </tr>
+            <tr>
+                <td bgcolor="#c3a5fa">1</td>
+                <td bgcolor="#c3a5fa">Class X</td>
+                <td bgcolor="#c3a5fa"><input type="text" name="" id=""></td>
+                <td bgcolor="#c3a5fa"><input type="text" name="" id=""></td>
+                <td bgcolor="#c3a5fa"><input type="text"></td>
+            </tr>
+            <tr>
+                <td bgcolor="#c3a5fa">2</td>
+                <td bgcolor="#c3a5fa">Class XII</td>
+                <td bgcolor="#c3a5fa"><input type="text"></td>
+                <td bgcolor="#c3a5fa"><input type="text"></td>
+                <td bgcolor="#c3a5fa"><input type="text"></td>
+            </tr>
+            <tr>
+                <td bgcolor="#c3a5fa">3</td>
+                <td bgcolor="#c3a5fa">Graduation</td>
+                <td bgcolor="#c3a5fa"><input type="text"></td>
+                <td bgcolor="#c3a5fa"><input type="text"></td>
+                <td bgcolor="#c3a5fa"><input type="text"></td>
+            </tr>
+            <tr>
+                <td bgcolor="#c3a5fa">4</td>
+                <td bgcolor="#c3a5fa">Masters</td>
+                <td bgcolor="#c3a5fa"><input type="text"> </td>
+                <td bgcolor="#c3a5fa"><input type="text"> </td>
+                <td bgcolor="#c3a5fa"><input type="text"> </td>
+            </tr>
+            </table>
+        </fieldset>
+
+    </form>
+
+    <fieldset style="border:2px solid rgb(0, 0, 0); background-color:#d4c6f1" ;><legend><h3>
+        <font color="black">
+        Department
+     </font>
+       </h3>
+    </legend>
+    <p>
+        Course Appplied For: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            BCA<input required type="radio" name="course" value="bca" id="">
+            B.Com<input required  type="radio" name="course" value="b.com" id="">
+            BSc<input  required type="radio" name="course" value="bsc" id="">
+            BA<input  required type="radio" name="course" value="ba" id="">
+    </p>
+    </fieldset>
+    
+    <center>
+       <a href="Submit.Html">
+           <input type="button" value="submit">
+
+       </a>
+       <a href="final form.html">
+        <input type="button" value="reset">
+
+    </a>
+   
+        
+   </center>
+ 
+    
+</body>
+</html> 
